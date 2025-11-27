@@ -56,3 +56,6 @@ menu()
 
 teste = input('Digite um numero: ')
 print(teste)
+
+chupa = input('Digite outra coisa: ')
+print(chupa)

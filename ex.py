@@ -42,7 +42,7 @@ def menu():
         research()
     elif x == 8:
         support()
-    elif x == 9:
+elif x == 9:
         it()
     elif x == 10:
         admin()

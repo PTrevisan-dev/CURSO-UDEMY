@@ -7,3 +7,4 @@ fg = int(input('field goal\n'))
 print(name)
 print(ppg)
 print(fg)
+

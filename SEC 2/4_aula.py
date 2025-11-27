@@ -12,4 +12,10 @@ mult = num1 * num2
 mod = num1 % num2 
 exp = num1 ** num2
 
-print(f'')
+
+print(sum)
+print(sub)
+print(div)
+print(mult)
+print(mod)
+print(exp)

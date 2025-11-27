@@ -35,3 +35,10 @@ print(different)
 print(bigger_equal)
 print(smaller_equal)
 
+# atribuição 
+
+num1 += 1 # num1 = num1 + 1
+num1 -= 1 # num1 = num1 - 1
+num1 *= 1 # num1 = num1 * 1
+num1 /= 1 # num1 = num1 / 1
+

@@ -14,7 +14,7 @@ muito consagrado na industria '''
 print(movieName)
 # 1- multiplicação de str
 line = '='
-print(line*40)
+print(line*60)
 print(movieDescription)
 
 # 2- procurar palavra dentra do texto 

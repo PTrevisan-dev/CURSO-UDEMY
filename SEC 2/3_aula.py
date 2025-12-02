@@ -8,9 +8,9 @@ print('players stats')
 print('=============================')
 
 # alternativa 1 
-print('Player:',name)
-print('Ppg:'ppg)
-print('Field goal:'fg)
+print(f'Player:{name}')
+print(f'Ppg:{ppg}')
+print(f'Field goal:{fg}')
 
 # alternativa 2 u tilizando o f'' e o \n
 

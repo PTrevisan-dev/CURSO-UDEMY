@@ -21,3 +21,7 @@ print(filmlist)
 filmcopy = filmlist.copy()
 filmcopy.remove('Interstellar')
 print(filmcopy)
+
+# 6- remover tudo da lista 
+filmlist.clear()
+print(filmlist)

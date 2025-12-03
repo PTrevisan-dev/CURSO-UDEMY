@@ -1,3 +1,5 @@
+# metodos para strings
+
 movie = 'top gun'
 movieDescription = '''
  Top Gun Maverick é umm filme de aviação e aventura 

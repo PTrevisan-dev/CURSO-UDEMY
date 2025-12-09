@@ -35,6 +35,6 @@ else:
     print('Operação invalida')
     result = 0 
 
-print(f'O resultado da seguinte operação {num} {operation} {num1} é :\n {result}')
+print(f'O resultado da seguinte operação {num} {operation} {num1} é :\n {result:.5f}')
 
 

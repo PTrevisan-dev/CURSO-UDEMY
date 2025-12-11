@@ -19,16 +19,17 @@ def animeFilter():
 
     print('---------DIGITE A LETRA OU DIGITE "sair" PARA VOLTAR---------')
 
-    letra = input('> ').lower()
+    while True:
+        letra = input('> ').lower()
 
-    if letra == 'sair':
-        menu()     # volta pro menu
-        return     # encerra a função para não continuar
+        if letra == 'sair':
+            menu()     
+             
 
-    # agora sim a list comprehension correta
-    filtrados = [anime for anime in animelist1 if anime[0].lower() == letra]
+    
+        filtrados = [anime for anime in animelist1 if anime[0].lower() == letra]
 
-    print(filtrados)
+        print(filtrados)
     return filtrados
 
 

@@ -52,3 +52,4 @@ while True :
             print(foundAnimes)
     else:
         print('Filme não encontrado')
+

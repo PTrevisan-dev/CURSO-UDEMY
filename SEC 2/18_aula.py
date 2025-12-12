@@ -55,7 +55,7 @@ animeList1 = ['Solo Leveling', 'Jujutsu Kaisen', 'Atack on Titan', 'Star vs forc
 
 def animelist():
         global animeList1
-        animesWithA = [anime for anime in animeList if 'a' in anime.lower()]
+        animesWithA = [anime for anime in animeList1 if 'a' in anime.lower()]
         print(animesWithA)
 
 def animeFilter():

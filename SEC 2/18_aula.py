@@ -5,6 +5,38 @@
 def welcome():
     print('Bem vindo ao sistema de animes')
 
+# 2 - repetindo a funcao 
+#for i in range(10):
+#     welcome
+
+# 3 - funcao para calcular a media de notas 
+
+def average_calc(): 
+     
+     average_num1 = int(input('Quantas avaliacoes deseja fazer ? :\n'))
+     total = 0 
+     for i in range(average_num1):
+          note = float(input('Digite a nota para o(s) anime(s):\n'
+                             '>'))
+          total += note
+    
+     if average_num1 > 0:
+         average = total / average_num1
+
+     return average
+          
+print(f'A media das avaliacoes e: {average_calc():.2f}')
+
+
+
+
+
+
+
+
+
+
+
 
 
 # anime list 
@@ -27,3 +59,4 @@ def animeFilter():
     print(anime_Filtred)
 
 animeFilter()
+

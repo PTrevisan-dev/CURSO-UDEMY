@@ -22,13 +22,23 @@ def average_calc():
     
      if average_num1 > 0:
          average = total / average_num1
-
-     return average
-          
+         return average
+     else:
+          0
+    
 print(f'A media das avaliacoes e: {average_calc():.2f}')
 
 
 
+def create_anime():
+     name = input('Digite o nome do anime:\n')
+     yearLaunch = int(input('Digite o ano de lancamento:\n'))
+     anime_price = float(input('Digite o valor do anime / manga: \n'))
+     anime_rating = float(input('Digite a nota de avaliacao do anime:'))
+     print(f'{name} ({yearLaunch}) - R$ {anime_price} {anime_rating:.f1}')
+
+
+create_anime()    
 
 
 

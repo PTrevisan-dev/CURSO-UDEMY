@@ -40,15 +40,6 @@ def create_anime():
 
 create_anime()    
 
-
-
-
-
-
-
-
-
-
 # anime list 
 
 animeList1 = ['Solo Leveling', 'Jujutsu Kaisen', 'Atack on Titan', 'Star vs forces of evil']

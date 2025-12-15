@@ -37,4 +37,4 @@ def rate_movie(num_rating, anime_name):
             0
     print(f'Media de avaliacao do anime: {anime_name} e: {average:.1f}')
 
-rate_movie(2, 'Solo leveling')            
+rate_movie(2, 'Solo leveling')

@@ -1,0 +1,23 @@
+como vai funcionar essa aula o servidor http vai fazer com que 2 mauqinas falem ma com a outra 
+ou seja p cliente fala com a maquina servidora 
+
+pra fazer esse conexcao existem 4 metodos 
+
+metodo GET consultar informacoes em um servidor 
+metodo POST incluir informacoes em um servidor
+metodo PUT para atualizar informacoes
+metodo DELETE para delatar informacoes 
+
+devemos primeiro saber qual o IP da maquinua dando um ' ipconfig ' ou ' ipconfig getifaddr en0 '
+no terminal 
+segundo passo iniciar o servidor web 
+
+1 passo - pegar o seu IP digitando IP config no terminal 
+2 passo - iniciar o servidor web na maquina digitando ' python -m http.server '
+3 passo - testar em uma maquina abrindo o navegador e digitando o IP seguido de :8000 (no caso a porta que esta aberta quando vc da o http...)
+e pronto assim vc ja vai ter acesso as coisas q estao ai 
+
+isso so funciona na mesma rede
+por isso e bom por exemplo para empresas assim so tem acesso local 
+
+777

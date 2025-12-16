@@ -9,8 +9,7 @@ metodo PUT para atualizar informacoes
 metodo DELETE para delatar informacoes 
 
 devemos primeiro saber qual o IP da maquinua dando um ' ipconfig ' ou ' ipconfig getifaddr en0 '
-no terminal 
-segundo passo iniciar o servidor web 
+no terminal e iniciar o servidor web 
 
 1 passo - pegar o seu IP digitando IP config no terminal 
 2 passo - iniciar o servidor web na maquina digitando ' python -m http.server '
@@ -18,6 +17,5 @@ segundo passo iniciar o servidor web
 e pronto assim vc ja vai ter acesso as coisas q estao ai 
 
 isso so funciona na mesma rede
-por isso e bom por exemplo para empresas assim so tem acesso local 
+por isso e bom por exemplo para empresas assim so tem acesso local por exexmplo um sistema que controla um estoque de um armazem grande 
 
-777

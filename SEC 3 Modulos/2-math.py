@@ -27,7 +27,7 @@ print(dildo.sqrt)
 
 # 7 - MDC
 mdc = dildo.gcd(20, 100)
-print(mcd)
+print(mdc)
 
 # 8 - logaritimo 
 print(dildo.log(10))

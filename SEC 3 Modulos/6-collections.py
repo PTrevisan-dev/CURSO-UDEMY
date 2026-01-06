@@ -20,3 +20,7 @@ print(g1)
 print(g2)
 print(g3)
 print(g4)
+
+# 3 ordenando por dicionarios 
+students = {'Pedro': 18, 'Davis': 19, }
+

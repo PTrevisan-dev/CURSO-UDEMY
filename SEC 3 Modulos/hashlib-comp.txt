@@ -1,0 +1,61 @@
+📚 Lista de algoritmos de hash (com explicação)
+🔴 MD5
+Tamanho: 128 bits
+Status: ❌ Inseguro
+Uso hoje: apenas checksums simples
+Problema: colisões fáceis
+🔴 SHA-1
+Tamanho: 160 bits
+Status: ❌ Quebrado
+Uso hoje: legado
+Problema: colisões práticas já demonstradas
+🟢 SHA-2 (família)
+Algoritmos seguros e muito usados hoje.
+SHA-224
+Tamanho: 224 bits
+Uso: aplicações específicas
+⭐ SHA-256 (RECOMENDADO)
+Tamanho: 256 bits
+Uso: login, arquivos, blockchain, APIs
+Vantagem: equilíbrio entre segurança e desempenho
+SHA-384
+Tamanho: 384 bits
+Uso: segurança reforçada
+SHA-512
+Tamanho: 512 bits
+Uso: servidores, dados críticos
+Vantagem: mais forte, mas mais pesado
+🟢 SHA-3 (Keccak)
+Arquitetura diferente da SHA-2.
+SHA3-224
+SHA3-256
+SHA3-384
+SHA3-512
+Status: Seguro e moderno
+Diferença: design interno totalmente diferente
+Uso: ainda menos comum no dia a dia
+🟢 BLAKE2
+Hashes modernos e rápidos.
+BLAKE2b
+Otimizado para sistemas 64-bit
+BLAKE2s
+Otimizado para sistemas 32-bit
+Status: Muito seguro
+Vantagem: mais rápido que SHA-256
+🟢 SHAKE (XOF – saída flexível)
+Você escolhe o tamanho do hash.
+SHAKE-128
+SHAKE-256
+Uso: criptografia avançada
+Diferencial: tamanho variável
+
+
+📌 Qual usar em cada caso?
+
+| Situação                | Algoritmo         |
+| ----------------------- | ----------------- |
+| Testes gerais           | SHA-256           |
+| Senhas (NÃO puro)       | bcrypt / argon2   |
+| Integridade de arquivos | SHA-256 / SHA-512 |
+| Sistemas modernos       | BLAKE2            |
+| Criptografia avançada   | SHA-3 / SHAKE     |

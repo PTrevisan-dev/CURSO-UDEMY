@@ -22,5 +22,15 @@ print(g3)
 print(g4)
 
 # 3 ordenando por dicionarios 
-students = {'Pedro': 18, 'Davis': 19, }
+students = {'Pedro': 18, 'Davis': 19, 'Dildo': 18}
+a = sorted(students.items(), key= itemgetter(0))
+print(a)
 
+# 4 utilizando uma fila em ambas extremidades 
+deq = deque([20, 40, 60, 80])
+deq.appendleft(10) # tem a mesma funcao do appenda mas faz isso na direcao que e designada nessa caso e na esquerda
+print(deq)
+deq.append(90)
+deq.popleft()
+deq.pop()
+print(deq)

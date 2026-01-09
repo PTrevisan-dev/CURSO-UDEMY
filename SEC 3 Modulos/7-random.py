@@ -42,3 +42,5 @@ while not done:
     else:
         print('Opcao invalida ------------------ Escolha 1 ou 2')
     
+# Boku no hero e mt bom 
+print('Boku no Hero e mt legal')

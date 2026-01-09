@@ -32,5 +32,6 @@ deq.appendleft(10) # tem a mesma funcao do appenda mas faz isso na direcao que e
 print(deq)
 deq.append(90)
 deq.popleft()
-deq.pop()
+deq.pop() # pop serve para tirar nesse caso e ao contrario do append
 print(deq)
+
